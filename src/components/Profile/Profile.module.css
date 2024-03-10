@@ -1,0 +1,85 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.profileContainer {
+  width: 730px;
+  border: 5px solid black;
+  overflow: hidden;
+  border-radius: 20px;
+  padding-top: 40px;
+  background-color: rgb(249, 247, 247);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileInfo {
+  text-align: center;
+  color: rgb(98, 93, 92);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  background-color: rgb(39, 38, 38);
+}
+
+.username {
+  margin: 20px 0 20px 0;
+  font-weight: 700;
+  font-size: 50px;
+  color: black;
+}
+
+.tag {
+  margin: 0;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.location {
+  margin: 0;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  margin-right: 0;
+  border-top: 5px solid rgb(98, 93, 92);
+  background-color: rgb(198, 192, 191);
+}
+
+.statItemLikes {
+  padding: 40px 75px 40px 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statItemFollowers {
+  padding: 40px 38px 40px 39px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statItemBorder {
+  padding: 40px 70px 40px 70px;
+  border-left: 5px solid rgb(98, 93, 92);
+  border-right: 5px solid rgb(98, 93, 92);
+  display: flex;
+  flex-direction: column;
+}
+
+.statLabel {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.statValue {
+  font-weight: 700;
+  font-size: 30px;
+}
